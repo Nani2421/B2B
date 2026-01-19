@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/srineerajreddypalakolanu/Desktop/B2B/app/page.tsx"],"sourcesContent":["import dynamic from 'next/dynamic';\n\nconst StaffingScroll = dynamic(() => import('@/components/StaffingScroll'), {\n  ssr: false,\n  loading: () => <div className=\"h-screen w-full bg-black text-white flex items-center justify-center\">Loading Experience...</div>\n});\n\nexport default function Home() {\n  return (\n    <main>\n      <StaffingScroll />\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;;AAEA,MAAM,iBAAiB,IAAA,0KAAO,EAAC;;;;;;IAC7B,KAAK;IACL,SAAS,kBAAM,8OAAC;YAAI,WAAU;sBAAuE;;;;;;;AAGxF,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;;;;;;;;;AAGP"}}]
+}

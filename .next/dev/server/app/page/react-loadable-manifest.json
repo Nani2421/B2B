@@ -1,0 +1,10 @@
+{
+  "[project]/components/StaffingScroll.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/StaffingScroll.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_969ee912._.js",
+      "static/chunks/components_StaffingScroll_tsx_9d693147._.js",
+      "static/chunks/components_StaffingScroll_tsx_ea76f96f._.js"
+    ]
+  }
+}
